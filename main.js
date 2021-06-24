@@ -11,8 +11,6 @@ To create a heading, add between 1 and 6 \`#\` in front of the word or phrase. T
 ## Heading level 2
 ### Heading level 3
 #### Heading level 4
-##### Heading level 5
-###### Heading level 6
 ### Paragraphs
 To create a paragraph, use a blank line to separate one or more lines of text.
 ### Line Breaks
@@ -74,12 +72,11 @@ To add a link to an image, enclose the Markdown for the image in brackets, and t
 ### Links
 To create a link, enclose the link text in brackets, and then follow it immediately with the URL in parentheses.  
 To add a title, enclose it in parentheses after the URL.
-This is a [link](https://github.com/alexandracaulea/markdown-previewer) to the repository.
+This is a [link](https://github.com/masterHeatwave/markdownPreviewer) to the repository.
 You can read more about Markdown [here](https://www.markdownguide.org/basic-syntax "Markdown Guide").
 ### URLs and Email Addresses
 To turn a URL or email address into a link, enclose it in angle brackets.
-<https://daringfireball.net/projects/markdown/syntax>  
-<yourname@example.com>
+<https://daringfireball.net/projects/markdown/syntax> <yourname@example.com>
 ### Task Lists
 - [x] this is a complete item  
 - [ ] this is an incomplete item  
@@ -106,7 +103,7 @@ function App(){
                 onChange={(e) => setText(e.target.value)}>
             </textarea>
             
-            <h3 className="mt-3"> Output</h3>
+            <h3 className="mt-3"> Output </h3>
             
             <a
         className="App-github-link"
