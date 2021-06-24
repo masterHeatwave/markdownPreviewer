@@ -90,7 +90,7 @@ To turn a URL or email address into a link, enclose it in angle brackets.
 `;
 
 function App(){
-    const [text, setText] = React.useState("");
+    const [text, setText] = React.useState(placeholderText);
 
     return(
         <div className="text-center px-4">
@@ -107,6 +107,7 @@ function App(){
             </textarea>
             
             <h3 className="mt-3"> Output</h3>
+            
             <a
         className="App-github-link"
         href="https://github.com/masterHeatwave/markdownPreviewer"
@@ -131,10 +132,7 @@ function App(){
           />
         </svg>
       </a>
-            <Preview markdown={text}/>
-
-            <Preview markdown={placeholderText} />
-
+        <Preview markdown={text}/>
         </div>
         );
     }
